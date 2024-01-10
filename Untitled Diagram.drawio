@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T01:01:25.271Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.17" etag="aYeP57qyKxkiMnHxH2HA" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-10T03:09:15.600Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qMlAszTA8_Kmc0m9b9fr" version="22.1.17" type="github">
   <diagram name="Page-1" id="r8Amg0IG3UjUFntEyOk9">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_d9WhWEy9v8gxWZoulwG-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_d9WhWEy9v8gxWZoulwG-2" target="_d9WhWEy9v8gxWZoulwG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_d9WhWEy9v8gxWZoulwG-2" value="数据存储" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="305" y="140" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_d9WhWEy9v8gxWZoulwG-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_d9WhWEy9v8gxWZoulwG-3" target="_d9WhWEy9v8gxWZoulwG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_d9WhWEy9v8gxWZoulwG-3" value="语音识别与处理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="305" y="230" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_d9WhWEy9v8gxWZoulwG-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_d9WhWEy9v8gxWZoulwG-4" target="_d9WhWEy9v8gxWZoulwG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_d9WhWEy9v8gxWZoulwG-4" value="自然语言后处理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="305" y="330" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_d9WhWEy9v8gxWZoulwG-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_d9WhWEy9v8gxWZoulwG-5" target="_d9WhWEy9v8gxWZoulwG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_d9WhWEy9v8gxWZoulwG-5" value="个性化方案" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="305" y="430" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_d9WhWEy9v8gxWZoulwG-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_d9WhWEy9v8gxWZoulwG-6" target="_d9WhWEy9v8gxWZoulwG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_d9WhWEy9v8gxWZoulwG-6" value="个性化唤醒与方案建议" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="520" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_d9WhWEy9v8gxWZoulwG-8" value="系统集成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="320" y="610" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_d9WhWEy9v8gxWZoulwG-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_d9WhWEy9v8gxWZoulwG-9" target="_d9WhWEy9v8gxWZoulwG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_d9WhWEy9v8gxWZoulwG-9" value="声音数据收集" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="320" y="50" width="160" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
