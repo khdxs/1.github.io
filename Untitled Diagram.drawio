@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T08:37:07.866Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="ULJX6vrT4zl2IlJloK6D" version="23.1.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-09T08:39:42.704Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="cmHQ4N3Ojc1Dy66NCUpC" version="23.1.6" type="github" pages="3">
   <diagram name="Page-1" id="N_dRvBfw88AEU8HuqJlB">
     <mxGraphModel dx="934" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -172,7 +172,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6NCB3GqgHLCDsGNJ0sfE" name="Page-3">
-    <mxGraphModel dx="1099" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1334" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -206,6 +206,9 @@
             <mxPoint x="230" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="H-vlEoGB6DI11x8bUK4--22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H-vlEoGB6DI11x8bUK4--11" target="H-vlEoGB6DI11x8bUK4--20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="H-vlEoGB6DI11x8bUK4--11" value="差分、MFCC降噪及特征增强" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="240" width="120" height="60" as="geometry" />
         </mxCell>
@@ -227,14 +230,38 @@
         <mxCell id="H-vlEoGB6DI11x8bUK4--15" value="识别驾驶人面部状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="590" y="610" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="H-vlEoGB6DI11x8bUK4--24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H-vlEoGB6DI11x8bUK4--16" target="H-vlEoGB6DI11x8bUK4--21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="H-vlEoGB6DI11x8bUK4--16" value="面部信息特征转换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="600" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H-vlEoGB6DI11x8bUK4--19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H-vlEoGB6DI11x8bUK4--18" target="H-vlEoGB6DI11x8bUK4--16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H-vlEoGB6DI11x8bUK4--18" value="面部信息特征建立" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="30" y="610" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H-vlEoGB6DI11x8bUK4--23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H-vlEoGB6DI11x8bUK4--20" target="H-vlEoGB6DI11x8bUK4--21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H-vlEoGB6DI11x8bUK4--20" value="语音识别与指令分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H-vlEoGB6DI11x8bUK4--28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H-vlEoGB6DI11x8bUK4--21" target="H-vlEoGB6DI11x8bUK4--27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H-vlEoGB6DI11x8bUK4--21" value="融合面部状态的意图判断" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="270" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H-vlEoGB6DI11x8bUK4--26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H-vlEoGB6DI11x8bUK4--25" target="H-vlEoGB6DI11x8bUK4--21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H-vlEoGB6DI11x8bUK4--25" value="响应方案制定与调整" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H-vlEoGB6DI11x8bUK4--27" value="车载系统决策全息投影" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
