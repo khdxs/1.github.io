@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2024-07-18T13:32:30.287Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.2.3" etag="48Q-L3r2xne8K-_gKtuc" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T02:18:41.539Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="29YNFQPKhJRv7NSZV3Jc" version="24.2.3" type="github">
   <diagram name="Page-1" id="N_2GxUZ7wroU12jIQ1mP">
-    <mxGraphModel>
+    <mxGraphModel dx="1468" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RnxV-xXHFIeGMoE-asyf-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RnxV-xXHFIeGMoE-asyf-1" target="RnxV-xXHFIeGMoE-asyf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnxV-xXHFIeGMoE-asyf-1" value="待检测视频文件获取" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="365" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RnxV-xXHFIeGMoE-asyf-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RnxV-xXHFIeGMoE-asyf-2" target="RnxV-xXHFIeGMoE-asyf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnxV-xXHFIeGMoE-asyf-2" value="视频文件预处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RnxV-xXHFIeGMoE-asyf-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RnxV-xXHFIeGMoE-asyf-3" target="RnxV-xXHFIeGMoE-asyf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnxV-xXHFIeGMoE-asyf-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RnxV-xXHFIeGMoE-asyf-3" target="RnxV-xXHFIeGMoE-asyf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnxV-xXHFIeGMoE-asyf-3" value="视频文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RnxV-xXHFIeGMoE-asyf-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RnxV-xXHFIeGMoE-asyf-4" target="RnxV-xXHFIeGMoE-asyf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnxV-xXHFIeGMoE-asyf-4" value="音频文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RnxV-xXHFIeGMoE-asyf-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RnxV-xXHFIeGMoE-asyf-5" target="RnxV-xXHFIeGMoE-asyf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnxV-xXHFIeGMoE-asyf-5" value="&lt;span style=&quot;text-align: start; font-size: 14pt; font-family: KaiTi_GB2312;&quot; lang=&quot;ZH-CN&quot;&gt;动态调整窗口、进行特征提取&lt;/span&gt;&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="390" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RnxV-xXHFIeGMoE-asyf-8" value="视频特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RnxV-xXHFIeGMoE-asyf-9" value="音频特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RnxV-xXHFIeGMoE-asyf-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RnxV-xXHFIeGMoE-asyf-5" target="RnxV-xXHFIeGMoE-asyf-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="460" as="sourcePoint" />
+            <mxPoint x="580" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
